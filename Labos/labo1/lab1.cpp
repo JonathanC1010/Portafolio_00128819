@@ -4,6 +4,8 @@
 #include <iostream>
         
 using namespace std;
+
+//21 matriz
 /*
 int main(){
 
@@ -41,8 +43,8 @@ int main(){
 }
  */
 
-/*
-int main(){
+//27 multiplicacion de complejos
+/*int main(){
 
     struct com{
         int r;
@@ -66,4 +68,41 @@ int main(){
 }
  */
 
-
+//4 murciegalo
+/*
+void clave(char *p, int l){
+    for(int i=0;i<l;i++){
+        switch(*p){
+            case 'm':
+                cout<<"0"; break;
+            case 'u':
+                cout<<"1"; break;
+            case 'r':
+                cout<<"2"; break;
+            case 'c':
+                cout<<"3"; break;
+            case 'i':
+                cout<<"4"; break;
+            case 'e':
+                cout<<"5"; break;
+            case 'l':
+                cout<<"6"; break;
+            case 'a':
+                cout<<"7"; break;
+            case 'g':
+                cout<<"8"; break;
+            case 'o':
+                cout<<"9"; break;
+            default: 
+                cout<<*p; break;
+        }
+        *(p++);
+    }}
+int main(){
+    char arr[]= "hola mundo";
+    int r;
+    char *p=arr;
+    r = sizeof(arr);
+    clave(p, r);
+return 0;}
+*/

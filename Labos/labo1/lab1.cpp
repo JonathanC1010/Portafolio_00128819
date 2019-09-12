@@ -1,7 +1,8 @@
 //Jonathan Alexis Cardona Garcia 00128819
-
+//9:37PM    9/11/19
 
 #include <iostream>
+#include <cstring>
         
 using namespace std;
 
@@ -68,7 +69,7 @@ int main(){
 }
  */
 
-//4 murciegalo
+//4 murcielago
 /*
 void clave(char *p, int l){
     for(int i=0;i<l;i++){
@@ -106,3 +107,32 @@ int main(){
     clave(p, r);
 return 0;}
 */
+
+//14 palabra palindrome
+/*void palindrome(char *p, int l){
+    int j=l,h=0;
+    
+    for(int i=0;i<l;i++){
+        j--;
+        if(p[i]!=p[j]){
+            cout<<"No es palindrome"; break;
+        }
+        else{
+            h++;
+        }
+    }
+    if (h==l)
+        cout<<"Es palindrome";
+}
+int main(){
+    int k;
+    cout<<"Número de letras en la palabra a ingresar: ";
+    cin>>k;
+    char pal[k];
+    cin>>pal;
+    
+    char *p=pal;
+    palindrome(p,k);
+     
+return 0;
+}*/

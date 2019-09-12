@@ -109,7 +109,7 @@ return 0;}
 */
 
 //14 palabra palindrome
-/*void palindrome(char *p, int l){
+void palindrome(char *p, int l){
     int j=l,h=0;
     
     for(int i=0;i<l;i++){
@@ -128,6 +128,7 @@ int main(){
     int k;
     cout<<"Número de letras en la palabra a ingresar: ";
     cin>>k;
+    cout<<"Palabra a verificar: ";
     char pal[k];
     cin>>pal;
     
@@ -135,4 +136,4 @@ int main(){
     palindrome(p,k);
      
 return 0;
-}*/
+}

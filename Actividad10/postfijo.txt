@@ -1,0 +1,24 @@
+/*
+Jonathan Alexis Cardona Garcia 00128819
+*
+*
+*/
+
+De infijo a postfijo:
+
+1:
+A-B/(C*D$E)
+A-B/(C*DE$)
+A-B/(CDE$*)
+A-BCDE$*/
+
+ABCDE$*/-
+
+
+2:
+((A+B)*C-(D-E))$(F+G)
+((AB+)*C-(DE-))$(FG+)
+(AB+C*-(DE-))(FG+)$
+(AB+C*DE--)(FG+)$
+
+AB+C*DE--FG+$
